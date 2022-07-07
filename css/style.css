@@ -17,6 +17,7 @@ body{
 
 .logo{
     max-width: 600px;
+    margin-top: 5px;
     margin-bottom: 24px;
 }
 
@@ -90,23 +91,25 @@ body{
     color: #ffffff;
     position: relative;
     top: 20px;
+    margin-bottom: 15px;
     padding: 6px 8px;
-    background: rgb(15, 15, 15);
+    background-color: rgb(0, 0, 0, 0.40);
+    border: 1px solid #313131;
     text-align: center;
     font-size: 16px;
     border-radius: 6px;
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
+    visibility: visible;
+    opacity: 1;
+    /*transition: all 0.5s ease-in-out;*/
 }
 
 .hide{
     display: none;
 }
 
-.container-password:hover .tooltip{
+/*.container-password:hover .tooltip{
     visibility: visible;
     bottom: 50px;
     opacity: 1;
-}
+}/*
 
