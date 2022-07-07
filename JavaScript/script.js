@@ -23,6 +23,7 @@ function generatePassword(){
 
     containerPassowrd.classList.remove("hide");
     password.innerHTML = pass;
+    novaSenha = pass;
 }
 
 function copyPassword(){
